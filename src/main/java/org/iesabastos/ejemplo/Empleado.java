@@ -32,6 +32,7 @@ public class Empleado {
         return emp_no;
     }
 
+
     public void setEmp_no(int emp_no) {
         this.emp_no = emp_no;
     }
