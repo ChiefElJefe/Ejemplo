@@ -4,19 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29520b39-4468-47d1-8a20-5d100c68cd9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/Departamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/iesabastos/ejemplo/AppTest.java" afterDir="false" />
+    <list default="true" id="29520b39-4468-47d1-8a20-5d100c68cd9e" name="Changes" comment="First">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_01_InsertaDepartamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_02_InsertaEmpleadoNuevoDep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_03_InsertaEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_04_ListadoDep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_05_ListadoDep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_06_BorraEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_07_ModificaEmpleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/Departamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/7N/Desktop/Ejemplo/src/main",
+    "last_opened_file_path": "C:/Users/7N/Desktop/Ejemplo",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -57,9 +58,22 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\7N\Desktop\Ejemplo\src\main" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\7N\Desktop\Ejemplo\src\main" />
+      <recent name="C:\Users\7N\Desktop\Ejemplo\src\main\java\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.iesabastos.ejemplo" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Demon" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.iesabastos.ejemplo.App" />
+      <module name="Ejemplo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,6 +84,21 @@
       <option name="presentableId" value="Default" />
       <updated>1674152512009</updated>
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1674154927479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674154927479</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First">
+      <created>1674154944977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674154944977</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,10 +106,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
 </project>

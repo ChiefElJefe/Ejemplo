@@ -6,7 +6,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost/pedidosfab</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/ejemploh</property>
         <!--  Cambiar basededatos por nombre de la base de datos  -->
         <property name="hibernate.connection.username">root</property>
         <!--  Nombre de usuario de la base de datos  -->
@@ -16,8 +16,8 @@
         <property name="hibernate.show_sql">true</property>
         <!--  Se registran las clases que hay que mapear con cada tabla de la base de datos. Ejemplo:   -->
         <!--  <mapping class="com.example.Construcciones"/> -->
-        <mapping class="org.iesabatos.dam.ejemplo.Departamento"/>
-        <mapping class="org.iesabatos.dam.ejemplo.Empleado"/>
+        <mapping class="org.iesabastos.ejemplo.Departamento"/>
+        <mapping class="org.iesabastos.ejemplo.Empleado"/>
         <!--  Fin registro de clases mapeadas  -->
     </session-factory>
 </hibernate-configuration>

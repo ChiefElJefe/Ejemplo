@@ -7,9 +7,8 @@ import java.util.Date;
 @Table(name = "empleados")
 public class Empleado {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
-    private int emp_no;
+    private short emp_no;
     @Column
     private String nombre;
     @Column
@@ -21,19 +20,18 @@ public class Empleado {
     @Column
     private float comision;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.DETACH)
     @JoinColumn(name = "dept_NO")
-    private int dept_NO;
+    private Departamento departamento;
 
     public Empleado() {
     }
 
-    public int getEmp_no() {
+    public short getEmp_no() {
         return emp_no;
     }
 
-
-    public void setEmp_no(int emp_no) {
+    public void setEmp_no(short emp_no) {
         this.emp_no = emp_no;
     }
 
@@ -77,11 +75,11 @@ public class Empleado {
         this.comision = comision;
     }
 
-    public int getDept_NO() {
-        return dept_NO;
+    public Departamento getDepartamento() {
+        return departamento;
     }
 
-    public void setDept_NO(int dept_NO) {
-        this.dept_NO = dept_NO;
+    public void setDepartamento(Departamento departamento) {
+        this.departamento = departamento;
     }
 }
