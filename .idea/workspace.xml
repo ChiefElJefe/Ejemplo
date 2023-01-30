@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29520b39-4468-47d1-8a20-5d100c68cd9e" name="Changes" comment="First">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_08_ConsultasHQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_09_QueryDep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_08_ConsultasHQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_08_ConsultasHQL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675101781757</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="First">
+      <created>1675103591844</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675103591844</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

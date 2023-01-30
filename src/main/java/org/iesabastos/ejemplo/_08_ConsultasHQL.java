@@ -49,4 +49,18 @@ public class _08_ConsultasHQL {
         sesion.getTransaction().commit();
         sesion.close();
     }
+
+    public _08_ConsultasHQL(short a) {
+        HibernateUtil.buildSessionFactory();
+        HibernateUtil.openSession();
+        Session sesion = HibernateUtil.getCurrentSession();
+        sesion.beginTransaction();
+        Query query = sesion.createQuery("select d.dnombre, d.loc FROM Empleado as e");
+        List<Object[]> dnombres = query.list();
+        for (int i = 0; i < dnombres.size(); i++) {
+            System.out.println("" + dnombres.get(i)[0] + " " +dnombres.get(i)[1]);
+        }
+        sesion.getTransaction().commit();
+        sesion.close();
+    }
 }
