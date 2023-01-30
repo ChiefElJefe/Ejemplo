@@ -22,7 +22,7 @@ public class App
         //_05_ListadoDep a = new _05_ListadoDep();
         //_06_BorraEmpleado a = new _06_BorraEmpleado();
         //_07_ModificaEmpleado a = new _07_ModificaEmpleado();
-        HibernateUtil.buildSessionFactory();
+        /*HibernateUtil.buildSessionFactory();
         HibernateUtil.openSession();
         Session sesion = HibernateUtil.getCurrentSession();
         sesion.beginTransaction();
@@ -39,7 +39,12 @@ public class App
                     dep.getDnombre()+ " * " + emp.getNombre());
         }
         sesion.getTransaction().commit();
-        sesion.close();
+        sesion.close();*/
+        //_09_QueryDep a = new _09_QueryDep();
+        //_09_QueryDep a = new _09_QueryDep(1);
+        //_08_ConsultasHQL a = new _08_ConsultasHQL();
+        //_08_ConsultasHQL a = new _08_ConsultasHQL(1);
+        _08_ConsultasHQL a = new _08_ConsultasHQL((long)1);
 
     }
 }
