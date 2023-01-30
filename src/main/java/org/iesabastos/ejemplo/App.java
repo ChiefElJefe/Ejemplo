@@ -1,5 +1,8 @@
 package org.iesabastos.ejemplo;
 
+import org.hibernate.Query;
+import org.hibernate.Session;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +22,24 @@ public class App
         //_05_ListadoDep a = new _05_ListadoDep();
         //_06_BorraEmpleado a = new _06_BorraEmpleado();
         //_07_ModificaEmpleado a = new _07_ModificaEmpleado();
+        HibernateUtil.buildSessionFactory();
+        HibernateUtil.openSession();
+        Session sesion = HibernateUtil.getCurrentSession();
+        sesion.beginTransaction();
+        Query q = sesion.createQuery("from Departamento d, Empleado e "
+                + "where d.dept_NO=e.departamento.dept_NO order by e.nombre");
+        List <Object[]> lista = q.list();
+        Departamento dep;
+        Empleado emp;
+        for (Object[] resultado: lista){
+            dep = (Departamento) resultado [0];
+            emp = (Empleado) resultado [1];
+
+            System.out.println(dep.getDept_NO() + " * " +
+                    dep.getDnombre()+ " * " + emp.getNombre());
+        }
+        sesion.getTransaction().commit();
+        sesion.close();
 
     }
 }
