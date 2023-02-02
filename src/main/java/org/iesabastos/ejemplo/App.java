@@ -44,7 +44,12 @@ public class App
         //_09_QueryDep a = new _09_QueryDep(1);
         //_08_ConsultasHQL a = new _08_ConsultasHQL();
         //_08_ConsultasHQL a = new _08_ConsultasHQL(1);
-        _08_ConsultasHQL a = new _08_ConsultasHQL((long)1);
+        //_08_ConsultasHQL a = new _08_ConsultasHQL((long)1);
+        //_08_ConsultasHQL a = new _08_ConsultasHQL((short)1);
+        //_08_ConsultasHQL a = new _08_ConsultasHQL("a");
+        //_08_ConsultasHQL a = new _08_ConsultasHQL(1, 1);
+        //_08_ConsultasHQL a = new _08_ConsultasHQL((long)1, (long)1);
+        _08_ConsultasHQL a = new _08_ConsultasHQL((short)1, (short)1);
 
     }
 }
