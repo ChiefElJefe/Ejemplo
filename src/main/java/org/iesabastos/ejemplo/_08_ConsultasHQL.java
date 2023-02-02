@@ -112,7 +112,7 @@ public class _08_ConsultasHQL {
         Session sesion = HibernateUtil.getCurrentSession();
         sesion.beginTransaction();
         Query query = sesion.createQuery("select d.dnombre from Departamento d where d.dnombre not in (" +
-                " select d.dnombre from Departamento d left outer join d.empleado e where e.nombre = 'Cristina %') ");
+                " select d.dnombre from Departamento d left outer join d.empleado e where e.nombre like 'Cristina%') ");
         List<String> nombres = query.list();
         for (int i = 0; i < nombres.size(); i++) {
             System.out.println("" + nombres.get(i));
