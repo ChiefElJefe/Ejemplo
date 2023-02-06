@@ -49,7 +49,11 @@ public class App
         //_08_ConsultasHQL a = new _08_ConsultasHQL("a");
         //_08_ConsultasHQL a = new _08_ConsultasHQL(1, 1);
         //_08_ConsultasHQL a = new _08_ConsultasHQL((long)1, (long)1);
-        _08_ConsultasHQL a = new _08_ConsultasHQL((short)1, (short)1);
+        //_08_ConsultasHQL a = new _08_ConsultasHQL((short)1, (short)1);
+        //_10_QueryParam a = new _10_QueryParam();
+        //_11_MasAntiguo a = new _11_MasAntiguo();
+        //_12_QueryClasesNoAsociadas a = new _12_QueryClasesNoAsociadas();
+        _13_QueryFuncionesGrupo a = new _13_QueryFuncionesGrupo();
 
     }
 }

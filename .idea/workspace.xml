@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29520b39-4468-47d1-8a20-5d100c68cd9e" name="Changes" comment="First">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_10_QueryParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_11_MasAntiguo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_12_QueryClasesNoAsociadas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_13_QueryFuncionesGrupo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_08_ConsultasHQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/ejemplo/_08_ConsultasHQL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
   <component name="RunManager">
     <configuration name="Demon" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.iesabastos.ejemplo.App" />
-      <module name="Ejemplo" />
+      <module name="AccesoADatos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
